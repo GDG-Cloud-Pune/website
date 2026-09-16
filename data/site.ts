@@ -67,6 +67,14 @@ export type ChapterEvent = {
 
 export const events: ChapterEvent[] = [
   {
+    date: "26 SEP 2026",
+    kind: "WORKSHOP",
+    kindClassName: "bg-tag-pink",
+    title: "Build with AI — Code for Communities 2nd Edition: Pre-CCD Workshop",
+    host: "Hosted by GDG Cloud Pune",
+    url: "https://gdg.community.dev/events/details/google-gdg-cloud-pune-presents-build-with-ai-code-for-communities-2nd-edition-pre-ccd-event-series-workshop/",
+  },
+  {
     date: "17 MAY 2026",
     kind: "HACKATHON",
     kindClassName: "bg-tag-yellow",
@@ -89,14 +97,6 @@ export const events: ChapterEvent[] = [
     title: "Build with AI: GDG Cloud Pune",
     host: "Hosted by GDG Cloud Pune",
     url: "https://gdg.community.dev/events/details/google-gdg-cloud-pune-presents-build-with-ai-gdg-cloud-pune-1/",
-  },
-  {
-    date: "24 JAN 2026",
-    kind: "HACKATHON",
-    kindClassName: "bg-tag-pink",
-    title: "Build and Grow AI Hackathon 2.0 (Mumbai & Pune)",
-    host: "Co-hosted with GDG Cloud Mumbai",
-    url: "https://gdg.community.dev/events/details/google-gdg-cloud-mumbai-presents-build-and-grow-ai-hackathon-20-mumbai-amp-pune/cohost-gdg-cloud-pune",
   },
 ];
 
